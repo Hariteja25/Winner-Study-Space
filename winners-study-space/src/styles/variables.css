@@ -1,0 +1,36 @@
+:root {
+  /* Colors */
+  --primary-color: #00bcd4; /* Cyan/Teal - Fresh & Focusing */
+  --primary-dark: #0097a7;
+  --primary-light: #b2ebf2;
+  --secondary-color: #546e7a; /* Blue Grey - Calming */
+  --accent-color: #ffca28; /* Soft Amber - Subtle energy */
+  
+  --bg-color: #f5f7fa; /* Very Light Grey */
+  --bg-white: #ffffff;
+  --bg-section: #eef2f5;
+
+  --text-dark: #263238;
+  --text-light: #546e7a;
+  --text-white: #ffffff;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-size-base: 16px;
+  --font-size-h1: 3rem;
+  --font-size-h2: 2.25rem;
+  --font-size-h3: 1.5rem;
+
+  /* Borders */
+  --border-radius: 8px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+}
