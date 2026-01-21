@@ -28,7 +28,7 @@ const Pricing = () => {
                     <div class="pricing-card popular">
                         <div class="popular-badge">POPULAR</div>
                         <h3 class="pricing-plan">Monthly Pro</h3>
-                        <div class="pricing-price">₹2500 <span>/ month</span></div>
+                        <div class="pricing-price">₹2000 <span>/ month</span></div>
                         <ul class="pricing-features">
                             <li>Dedicated Desk</li>
                             <li>Unlimited Wi-Fi</li>
