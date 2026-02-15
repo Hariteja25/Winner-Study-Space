@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Hero.css';
+import bannerImg from '../images/winner_space_banner.jpeg';
 
 const Hero = () => {
 
@@ -25,26 +26,20 @@ const Hero = () => {
                     </div>
                 </div>
 
-                {/* Abstract visual representation or we could use an image placeholder */}
                 <div class="hero-image-container">
                     <div class="hero-card">
-                        {/* Using a placeholder or an amenity icon illustration could be nice */}
-                        <div style={{
-                            width: '100%',
-                            height: '250px',
-                            backgroundColor: 'var(--primary-light)',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            borderRadius: '8px',
-                            color: 'var(--primary-dark)',
-                            marginBottom: '1rem'
-                        }}>
-                            <span style={{ fontSize: '5rem' }}>📚</span>
+                        <div class="hero-banner-frame">
+                            <img
+                                src={bannerImg}
+                                alt="Winners Study Space Banner"
+                                className="hero-banner-img"
+                            />
                         </div>
-                        <h3>Your Personal Growth Zone</h3>
-                        <p style={{ color: 'var(--text-light)', fontSize: '0.9rem' }}>Ergonomic seating • High-speed WiFi • Air Conditioned</p>
-                        <div class="hero-badge">Open 8AM - 10PM</div>
+                        <div class="hero-card-content">
+                            <h3>Your Personal Growth Zone</h3>
+                            <p style={{ color: 'var(--text-light)', fontSize: '0.9rem' }}>Ergonomic seating • High-speed WiFi • Air Conditioned</p>
+                            <div class="hero-badge">Open 7:00 AM - 10:00 PM</div>
+                        </div>
                     </div>
                 </div>
             </div>

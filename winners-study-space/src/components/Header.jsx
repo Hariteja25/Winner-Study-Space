@@ -30,8 +30,8 @@ const Header = () => {
 
         <nav class={`nav-menu ${isOpen ? 'open' : ''}`}>
           <a href="#amenities" class="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('amenities'); }}>Amenities</a>
-          <a href="#pricing" class="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('pricing'); }}>Pricing</a>
           <a href="#gallery" class="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('gallery'); }}>Gallery</a>
+          <a href="#pricing" class="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('pricing'); }}>Pricing</a>
           <a href="#contact" class="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a>
           <a href="#contact" class="btn btn-primary" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Book a Desk</a>
         </nav>

@@ -14,41 +14,43 @@ const Pricing = () => {
                 <div class="pricing-grid">
 
                     <div class="pricing-card">
-                        <h3 class="pricing-plan">Daily Pass</h3>
-                        <div class="pricing-price">₹100 <span>/ day</span></div>
+                        <h3 class="pricing-plan">Economy</h3>
                         <ul class="pricing-features">
-                            <li>Access for one full day</li>
-                            <li>High-speed Wi-Fi</li>
-                            <li>Shared Desk</li>
-                            <li>RO Water Access</li>
+                            <li>Dedicated Desk</li>
+                            <li>Unlimited Wi-Fi</li>
+                            <li>Comfortable Environment</li>
+                            <li>Flexible Seating</li>
+                            <li>Power Backup</li>
                         </ul>
-                        <button class="btn btn-outline" style={{ width: '100%' }} onClick={scrollToContact}>Choose Daily</button>
+                        <button class="btn btn-outline" style={{ width: '100%' }} onClick={scrollToContact}>Choose Economy</button>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3 class="pricing-plan">Elite</h3>
+                        <ul class="pricing-features">
+                            <li>Air Conditioning</li>
+                            <li>Dedicated Desk</li>
+                            <li>Unlimited Wi-Fi</li>
+                            <li>Comfortable Environment</li>
+                            <li>Flexible Seating</li>
+                            <li>Power Backup</li>
+                        </ul>
+                        <button class="btn btn-outline" style={{ width: '100%' }} onClick={scrollToContact}>Choose Elite</button>
                     </div>
 
                     <div class="pricing-card popular">
                         <div class="popular-badge">POPULAR</div>
-                        <h3 class="pricing-plan">Monthly Pro</h3>
-                        <div class="pricing-price">₹2000 <span>/ month</span></div>
+                        <h3 class="pricing-plan">Premium</h3>
                         <ul class="pricing-features">
+                            <li>Air Conditioning</li>
+                            <li>Locker Facility</li>
                             <li>Dedicated Desk</li>
                             <li>Unlimited Wi-Fi</li>
-                            <li>Locker Facility</li>
-                            <li>Power Backup</li>
-                            <li>Air Conditioning</li>
-                        </ul>
-                        <button class="btn btn-primary" style={{ width: '100%' }} onClick={scrollToContact}>Choose Monthly</button>
-                    </div>
-
-                    <div class="pricing-card">
-                        <h3 class="pricing-plan">Weekly Pass</h3>
-                        <div class="pricing-price">₹600 <span>/ week</span></div>
-                        <ul class="pricing-features">
-                            <li>7 Days Access</li>
-                            <li>High-speed Wi-Fi</li>
+                            <li>Comfortable Environment</li>
                             <li>Flexible Seating</li>
-                            <li>Comfortable Enviroment</li>
+                            <li>Power Backup</li>
                         </ul>
-                        <button class="btn btn-outline" style={{ width: '100%' }} onClick={scrollToContact}>Choose Weekly</button>
+                        <button class="btn btn-primary" style={{ width: '100%' }} onClick={scrollToContact}>Choose Premium</button>
                     </div>
 
                 </div>

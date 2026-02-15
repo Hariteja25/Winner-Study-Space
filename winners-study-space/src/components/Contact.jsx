@@ -15,7 +15,7 @@ const Contact = () => {
                                 <div class="contact-icon"><MapPin size={20} /></div>
                                 <div class="contact-text">
                                     <h4>Address</h4>
-                                    <p>3rd Floor above IDBI Bank, VRC Center,<br />Nellore, Andhra Pradesh, India</p>
+                                    <p>3rd Floor, LR Shine Building, Above IDBI Bank,<br />Beside Mahila Police Station, Trunk Road,<br />Nellore, Andhra Pradesh - 524001</p>
                                 </div>
                             </div>
 
@@ -23,7 +23,7 @@ const Contact = () => {
                                 <div class="contact-icon"><Phone size={20} /></div>
                                 <div class="contact-text">
                                     <h4>Phone</h4>
-                                    <p><a href="tel:+919676085124">+91 96760 85124</a></p>
+                                    <p><a href="tel:+919440642408">+91 94406 42408</a></p>
                                 </div>
                             </div>
 
@@ -31,7 +31,7 @@ const Contact = () => {
                                 <div class="contact-icon"><Mail size={20} /></div>
                                 <div class="contact-text">
                                     <h4>Email</h4>
-                                    <p><a href="mailto:winnersstudyspace@gmail.com">winnersstudyspace@gmail.com</a></p>
+                                    <p><a href="mailto:winnersss2026@gmail.com">winnersss2026@gmail.com</a></p>
                                 </div>
                             </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
                                 <div class="contact-icon"><Clock size={20} /></div>
                                 <div class="contact-text">
                                     <h4>Operating Hours</h4>
-                                    <p>8:00 AM - 10:00 PM<br />Monday - Sunday</p>
+                                    <p>7:00 AM - 10:00 PM<br />Monday - Sunday</p>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const Contact = () => {
                                 scrolling="no"
                                 marginHeight="0"
                                 marginWidth="0"
-                                src="https://maps.google.com/maps?q=VRC+Center+Nellore+Andhra+Pradesh&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                src="https://maps.google.com/maps?q=Winners+Study+Space+Nellore+LR+Shine+Building&t=&z=17&ie=UTF8&iwloc=&output=embed"
                                 title="Winners Study Space Location"
                             ></iframe>
                         </div>
