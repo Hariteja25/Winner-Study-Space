@@ -78,3 +78,7 @@
     font-weight: bold;
     margin-right: 10px;
 }
+.highlight-feature {
+    color: var(--primary-color);
+    font-weight: 700;
+}

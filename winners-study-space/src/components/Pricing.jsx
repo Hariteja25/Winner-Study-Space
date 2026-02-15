@@ -20,37 +20,34 @@ const Pricing = () => {
                             <li>Unlimited Wi-Fi</li>
                             <li>Comfortable Environment</li>
                             <li>Flexible Seating</li>
-                            <li>Power Backup</li>
                         </ul>
                         <button class="btn btn-outline" style={{ width: '100%' }} onClick={scrollToContact}>Choose Economy</button>
-                    </div>
-
-                    <div class="pricing-card">
-                        <h3 class="pricing-plan">Elite</h3>
-                        <ul class="pricing-features">
-                            <li>Air Conditioning</li>
-                            <li>Dedicated Desk</li>
-                            <li>Unlimited Wi-Fi</li>
-                            <li>Comfortable Environment</li>
-                            <li>Flexible Seating</li>
-                            <li>Power Backup</li>
-                        </ul>
-                        <button class="btn btn-outline" style={{ width: '100%' }} onClick={scrollToContact}>Choose Elite</button>
                     </div>
 
                     <div class="pricing-card popular">
                         <div class="popular-badge">POPULAR</div>
                         <h3 class="pricing-plan">Premium</h3>
                         <ul class="pricing-features">
-                            <li>Air Conditioning</li>
-                            <li>Locker Facility</li>
+                            <li><span className="highlight-feature">Air Conditioning</span></li>
+                            <li><span className="highlight-feature">Locker Facility</span></li>
                             <li>Dedicated Desk</li>
                             <li>Unlimited Wi-Fi</li>
                             <li>Comfortable Environment</li>
                             <li>Flexible Seating</li>
-                            <li>Power Backup</li>
                         </ul>
                         <button class="btn btn-primary" style={{ width: '100%' }} onClick={scrollToContact}>Choose Premium</button>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3 class="pricing-plan">Elite</h3>
+                        <ul class="pricing-features">
+                            <li><span className="highlight-feature">Air Conditioning</span></li>
+                            <li>Dedicated Desk</li>
+                            <li>Unlimited Wi-Fi</li>
+                            <li>Comfortable Environment</li>
+                            <li>Flexible Seating</li>
+                        </ul>
+                        <button class="btn btn-outline" style={{ width: '100%' }} onClick={scrollToContact}>Choose Elite</button>
                     </div>
 
                 </div>
