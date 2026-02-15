@@ -22,7 +22,7 @@ const Gallery = () => {
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 5000); // 5 seconds interval
+        }, 2000); // 2 seconds interval
         return () => clearInterval(timer);
     }, []);
 
